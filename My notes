@@ -1,0 +1,45 @@
+Helper Method
+call back in rails
+resources with detail
+scope and namespace
+nested attribute
+association
+initializers
+MVC
+framework
+git hub
+cancan details	
+git rebase
+pull
+cheripic
+merge
+how remove commit
+branch delete
+what is git stash
+git stash  -m <stash name>  // save temperay changes means hold the changes
+git stash lists
+how to ftech the remote branch to our system
+git clone via https ssh
+what is pull request and merge
+git checkout -f to go all previous last commit
+                   ------
+git log               //to check all commits
+git log -5            ///to see last five commits 
+git rm --cached <file>         ///to remove file from staging area
+git diff                    //what we have change in code
+git log -p 1 ///to seek how many comnmits
+git add. 
+git status
+git branch <branch name> // to create branch
+git branch how may branch are there
+git branch and git checkout -b both create branch but git checkout -b commond switch to the newly brach 	
+how many commits are there repo and author name alos there
+
+----
+git reset soft < commit key> // delete the perticuler commit and not delete changes of code
+git reset --hard HEAD^ //delete latest commit and changes also
+git restore --staged // jis position me thi usi me vapis aa jati h
+
+git fetch // its create a copy of code into present directory but not merge you have to erge it forcefully by commond git merge
+git pull // gitn pull commond makes a copy of code from remote repo and merge autometically you do not need to  use merge commond to merge the data 
+
