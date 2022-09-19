@@ -49,8 +49,9 @@ to push project in git
 
 git init
 git add .
-git commit -m " msg you want to add"
 git config user.name shankarwk
 git config user.email shankar@webkorps.com
+git commit -m " msg you want to add"
 git remote add origin https://github.com/shankarwk/rspec.git
 git checkout -b brachname // to create branch and checkout the branch checkout means to switch the branch and create
+git push -u origin brachname
