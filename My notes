@@ -43,3 +43,14 @@ git restore --staged // jis position me thi usi me vapis aa jati h
 git fetch // its create a copy of code into present directory but not merge you have to erge it forcefully by commond git merge
 git pull // gitn pull commond makes a copy of code from remote repo and merge autometically you do not need to  use merge commond to merge the data 
 
+
+
+to push project in git 
+
+git init
+git add .
+git commit -m " msg you want to add"
+git config user.name shankarwk
+git config user.email shankar@webkorps.com
+git remote add origin https://github.com/shankarwk/rspec.git
+git checkout -b brachname // to create branch and checkout the branch checkout means to switch the branch and create
