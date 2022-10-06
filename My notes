@@ -15,6 +15,11 @@ cheripic
 merge
 how remove commit
 branch delete
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
 what is git stash
 git stash  -m <stash name>  // save temperay changes means hold the changes
 git stash lists
