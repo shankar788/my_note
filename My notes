@@ -28,10 +28,15 @@ git clone via https ssh
 what is pull request and merge
 git checkout -f to go all previous last commit
                    ------
+git init  // initialize repo                   
+                   
+                   
+                   
+                   
 git log               //to check all commits
 git log -5            ///to see last five commits 
 git rm --cached <file>         ///to remove file from staging area
-git diff                    //what we have change in code
+git diff                    //git diff compare working directory and staging area  \\ stageging area which we do by git add.
 git log -p 1 ///to seek how many comnmits
 git add. 
 git status
@@ -55,7 +60,7 @@ to push project in git
 git init
 git add .
 git config user.name shankarwk
-git config user.email shankar@webkorps.com
+git config user.email "you mail id which you have register with git hub"
 git commit -m " msg you want to add"
 git remote add origin https://github.com/shankarwk/rspec.git
 git checkout -b brachname // to create branch and checkout the branch checkout means to switch the branch and create
